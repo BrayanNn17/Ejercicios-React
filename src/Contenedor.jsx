@@ -59,11 +59,10 @@ const Contenedor =() => (
 <>
 
 
+{
+  Cantante.map( c => <Cantantes nombre={c.nombre} edad={c.edad} genero={c.genero} imagen={c.imagen}/>)
+  }
 
-
-<Formulario>
-
-</Formulario>
 </>
 
 );
@@ -71,6 +70,3 @@ const Contenedor =() => (
 export default Contenedor;
 
 
-{
-  Cantante.map( c => <Cantantes nombre={c.nombre} edad={c.edad} genero={c.genero} imagen={c.imagen}/>)
-  }
