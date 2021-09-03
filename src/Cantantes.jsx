@@ -13,7 +13,7 @@ const Cantantes = (props) =>(
     
 <p className="card-text">Edad: {props.edad}</p>
 <p className="card-text">Genero: {props.genero}</p>
-<p className="card-text">Imagen:<br/>{props.imagen}</p>
+<p className="card-text">Imagen:<br/><img style={{ width: '20%' }} src={props.imagen}  /></p>
 </div>
 </div>
 
@@ -22,7 +22,7 @@ const Cantantes = (props) =>(
 Cantantes.propTypes ={
     nombre: PropTypes.string,
     edad:PropTypes.number,
-    genero:PropTypes.string
+    genero:PropTypes.string,
     
 }
 
