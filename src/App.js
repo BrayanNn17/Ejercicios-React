@@ -26,7 +26,7 @@ import {Fragment} from 'react';
 }*/
 const App = () => <>
   <h1 className="tituloPrincipal">Nuevo Titulo</h1>
-  <img src={logo} className="App-logo" alt="logo" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDwmwzryhon9xXDvghlo9ohQUjBOWpzuwH7A&usqp=CAU" className="App-logo" alt="logo" />
   </>
 
 export default App;

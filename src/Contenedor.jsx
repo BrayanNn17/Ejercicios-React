@@ -1,5 +1,6 @@
 import React from 'react';
 import Cantantes from './Cantantes';
+import Formulario from './Formulario';
 
 const Cantante =
 
@@ -57,13 +58,19 @@ const Cantante =
 const Contenedor =() => (
 <>
 
-{
-Cantante.map( c => <Cantantes nombre={c.nombre} edad={c.edad} genero={c.genero} imagen={c.imagen}/>)
-}
 
 
+
+<Formulario>
+
+</Formulario>
 </>
 
 );
 
 export default Contenedor;
+
+
+{
+  Cantante.map( c => <Cantantes nombre={c.nombre} edad={c.edad} genero={c.genero} imagen={c.imagen}/>)
+  }
