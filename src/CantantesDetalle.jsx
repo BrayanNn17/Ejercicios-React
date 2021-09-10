@@ -93,7 +93,7 @@ const cantantes =[
         }
 
 
-        <a href={`/Cantantes`}>Ver todos</a>
+        <br/><a href={`/Cantantes`} style={{ color:'black',textDecoration:'none' }}>Ver todos</a>
        
         </>
         );
