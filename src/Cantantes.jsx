@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const Cantantes = (props) =>(
 
@@ -14,6 +15,7 @@ const Cantantes = (props) =>(
 <p className="card-text">Edad: {props.edad}</p>
 <p className="card-text">Genero: {props.genero}</p>
 <p className="card-text">Imagen:<br/><img style={{ width: '20%' }} src={props.imagen}  /></p>
+<p><Link to={`/Cantantes/${props.id}`}>Detalle</Link></p>
 </div>
 </div>
 
