@@ -2,13 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import {Fragment} from 'react';
 import{BrowserRouter as Router,Route, Switch} from "react-router-dom";
-import Contenedor from './Contenedor';
-import header from './header';
-import Contacto from './Contacto';
-import CantantesDetalle from './CantantesDetalle';
-import MainMenu from './MainMenu';
-import Footer from './footer';
-import DatosApi from './DatosApi';
+import Contenedor from '../Organismos/Contenedor';
+import header from '../Atomos/header';
+import Contacto from '../Moleculas/Contacto';
+import CantantesDetalle from '../Moleculas/CantantesDetalle';
+import MainMenu from '../Atomos/MainMenu';
+import Footer from '../Atomos/footer';
+import DatosApi from '../Organismos/DatosApi';
 
 const App = () => (
   <Router>

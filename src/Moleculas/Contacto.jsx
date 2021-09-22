@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Formulario from './Formulario';
+import Formulario from '../Organismos/Formulario';
 
 const Contacto =() => (
     <>

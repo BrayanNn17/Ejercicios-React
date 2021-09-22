@@ -1,9 +1,9 @@
 import React from 'react';
-import Cantantes from './Cantantes';
+import Cantantes from '../Moleculas/Cantantes';
 import Formulario from './Formulario';
-import Header from './header';
-import Footer from './footer';
-import MainMenu from './MainMenu';
+import Header from '../Atomos/header';
+import Footer from '../Atomos/footer';
+import MainMenu from '../Atomos/MainMenu';
 
 const Cantante =
 
