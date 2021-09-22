@@ -26,9 +26,9 @@ class Formulario extends Component{
     }
     render(){
          return(
-             <div id="elemento">
+             <div id="elemento" style={{marginTop:'6%'}}>
             <h1>Formulario</h1>
-             <form>
+             <form autoComplete="off">
                  
                  <input type="text" name="nombre" placeholder="Ingresa el nombre" onChange={this.cambiarNombre}/>
                  <input type="text" name="apellido" placeholder="Ingresa el nombre" onChange={ this.cambiarApellido}/>

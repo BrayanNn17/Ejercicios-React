@@ -15,7 +15,7 @@ const Cantantes = (props) =>(
 <p className="card-text">Edad: {props.edad}</p>
 <p className="card-text">Genero: {props.genero}</p>
 <p className="card-text">Imagen:<br/><img style={{ width: '20%' }} src={props.imagen}  /></p>
-<p><Link style={{ color:'black',textDecoration:'none' }}  to={`/Cantantes/${props.id}`}>Detalles</Link></p>
+<p><Link className="btn btn-primary" style={{ color:'white',textDecoration:'none' }}  to={`/Cantantes/${props.id}`}>Detalles</Link></p>
 </div>
 </div>
 
