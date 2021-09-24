@@ -20,6 +20,9 @@ const MainMenu =() => (
     <ul>
     <li><NavLink to="/Contacto" style={{ color:'black',textDecoration:'none' }}>Contacto</NavLink></li>
 </ul>
+<ul>
+    <li><NavLink to="/datos_api" style={{ color:'black',textDecoration:'none' }}>API</NavLink></li>
+</ul>
 
 
         
