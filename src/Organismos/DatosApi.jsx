@@ -40,8 +40,7 @@ class DatosApi extends Component{
                         <>
                           <p>{u.id}</p>
                           <p>{u.nombre}</p>
-                          <p>{u.edad}</p>
-                          <p>{u.genero}</p>
+                          <p>{u.edad}</p>    
                           <img style={{width:'20%'}} src={u.imagen}></img>
                           
                         </>
